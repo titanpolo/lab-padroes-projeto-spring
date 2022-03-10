@@ -4,3 +4,5 @@ Repositório com as implementações dos padrões de projeto explorados no Lab "
 - Singleton
 - Strategy/Repository
 - Facade
+
+OBS: alterações feitas com propóosito de testar outras temáticas para o uso da tecnologia
