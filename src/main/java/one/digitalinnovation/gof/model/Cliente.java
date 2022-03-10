@@ -14,7 +14,7 @@ public class Cliente {
 	private Long id;
 	private String nome;
 	@ManyToOne
-	private Endereco endereco;
+	private Geolocalizacao geolocalizacao;
 
 	public Long getId() {
 		return id;
@@ -32,12 +32,11 @@ public class Cliente {
 		this.nome = nome;
 	}
 
-	public Endereco getEndereco() {
-		return endereco;
+	public Geolocalizacao getGeolocalizacao() {
+		return geolocalizacao;
 	}
 
-	public void setEndereco(Endereco endereco) {
-		this.endereco = endereco;
+	public void setGeolocalizacao(Geolocalizacao geolocalizacao) {
+		this.geolocalizacao = geolocalizacao;
 	}
-
 }
